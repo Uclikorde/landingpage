@@ -19,8 +19,11 @@ $(document).ready(function(){
 			$('.without_click').toggleClass('click_on_menu');
 		}
 		);
+	//______________________________________________________________
 
-	
+		$('.next').click(function(){
+			var currentImage = $('.img .curry').index();
+		});
 	});
 
 
